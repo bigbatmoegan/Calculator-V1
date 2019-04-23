@@ -50,6 +50,7 @@ Stack_Expr_Command_Factory::~Stack_Expr_Command_Factory (void)
 
 int Stack_Expr_Command_Factory::precedence(std::string c)
 {
+	//order of operations precedence
 	if(c=="*" || c=="/" || c=="%")
 	{
 		return 3;
